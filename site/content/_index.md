@@ -1,6 +1,6 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
+title: "We create skincare cosmetics + beauty supplements for true"
+subtitle: Inside out beauty
 image: /img/home-jumbotron.jpg
 blurb:
     heading: Why Kaldi?
