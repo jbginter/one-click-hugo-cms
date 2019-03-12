@@ -29,12 +29,12 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
           - {label: "Top Images", name: topmodule, widget: list, fields: [
-                {label: "First Image", name: image1, widget: "image"},
-                {label: "Second Image", name: image2, widget: "image"}]}
+              {label: "First Image", name: image1, widget: "image"},
+              {label: "Second Image", name: image2, widget: "image"}]}
           - {label: "Image/Text Module", name: midmodule, widget: list, fields: [
-                {label: "Image", name: image, widget: "image"},
-                {label: "Heading", name: "heading", widget: string},
-                {label: "Text", name: "text", widget: "text"}]}
+              {label: "Image", name: image, widget: "image"},
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: "text"}]}
           - {label: "Intro", name: intro, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
