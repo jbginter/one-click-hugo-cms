@@ -2,6 +2,11 @@
 .underline    { text-decoration: underline; }
 .no-underline { text-decoration: none; }
 
+.underline-first {
+	left: 0;
+	bottom: -10px;
+}
+
 
 @media (--breakpoint-not-small) {
   .strike-ns       { text-decoration: line-through; }

@@ -3,11 +3,23 @@ title: "We create skincare cosmetics + beauty supplements for true"
 subtitle: Inside out beauty
 image: /img/home-jumbotron.jpg
 blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+    heading: Headline Goes Here
+    text: "Morbi pharetra euismod leo, tempor vestibulum tellus rutrum ut. Mauris semper, nisl id tristique cursus, diam odio consequat arcu, a euismod massa felis sed neque. In maximus turpis et justo egestas facilisis. Sed ac tincidunt nunc, eget vestibulum sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras nec purus erat. Curabitur dapibus turpis non vestibulum rutrum. Morbi arcu ex, tristique sit amet justo eget, ultricies placerat augue.
+
+    Cras quis felis nec ipsum mollis laoreet. Sed id accumsan risus, in convallis purus. Donec id ultricies lorem, non dapibus sapien. Donec et accumsan velit. Donec viverra velit quis elit maximus euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec semper enim id metus ultricies congue."
 intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
+    heading: "Be the first to know when we launch"
+    text: "27 Rosiers is revolutionizing the clean beauty industry by linking inside and out beauty to maximize healthy-looking skin from the inside out so that you not only look great but feel great too."
+topmodule:
+    image1: img/illustrations-coffee.svg
+    image2: img/illustrations-coffee.svg
+midmodule:
+    - image: img/illustrations-coffee.svg
+      heading: "Heading"
+      text: "Lorum Ipsum"
+    - image: img/illustrations-coffee.svg
+      heading: "Heading"
+      text: "Lorum Ipsum"
 products:
     - image: img/illustrations-coffee.svg
       text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
