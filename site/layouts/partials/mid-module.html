@@ -1,11 +1,13 @@
 <div class="bg-off-white pv4">
   <div class="ph3 mw7 center">
-    <div class="flex-ns mhn2-ns mb3">
+    <div class="mhn2-ns mb3">
       {{ range .midmodule }}
-      <div class="ph2-ns w-50-ns">
-        <img src="{{.image}}" alt="" class="center db mb3" style="width: 240px">
-        <h1>{{.heading}}</h1>
-        <p>{{.text}}</p>
+      <div class="ph2-ns w-100-ns">
+        <img src="{{.image}}" alt="" class="db mb3" style="width: 240px">
+        <div class=''>
+          <h1>{{.heading}}</h1>
+          <p>{{.text}}</p>
+        </div>
       </div>
       {{ end }}
     </div>
