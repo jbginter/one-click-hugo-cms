@@ -1,10 +1,10 @@
 ---
 title: "We create skincare cosmetics + beauty supplements for true"
 subtitle: Inside out beauty
-image: /img/home-jumbotron.jpg
+image: /img/hero.jpg
 video:
-    image: img/illustrations-coffee.svg
-    id: "0000000000"
+    image: img/video.jpg
+    id: "322620538"
 blurb:
     heading: Headline Goes Here
     text: "Morbi pharetra euismod leo, tempor vestibulum tellus rutrum ut. Mauris semper, nisl id tristique cursus, diam odio consequat arcu, a euismod massa felis sed neque. In maximus turpis et justo egestas facilisis. Sed ac tincidunt nunc, eget vestibulum sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras nec purus erat. Curabitur dapibus turpis non vestibulum rutrum. Morbi arcu ex, tristique sit amet justo eget, ultricies placerat augue.

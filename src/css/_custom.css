@@ -1,0 +1,25 @@
+#video-overlay {
+	width: 100%;
+	height: 100%;
+	z-index: 0; 
+	top: 0;
+	left: 0;
+}
+
+#video-overlay.active {
+	z-index: 10;
+}
+
+.video-holder {
+	width: 500px;
+	height: 275px;
+	z-index: 9;
+	background-position: center;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.video {
+	top: -115px;
+	margin-bottom: -115px;
+}
