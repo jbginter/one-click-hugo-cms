@@ -2,6 +2,7 @@
 title: "We create skincare cosmetics + beauty supplements for true"
 subtitle: Inside out beauty
 image: /img/hero.jpg
+mobile: /img/heroMobile.jpg
 video:
     image: img/video.jpg
     id: "322620538"
@@ -14,13 +15,13 @@ intro:
     heading: "Be the first to know when we launch"
     text: "27 Rosiers is revolutionizing the clean beauty industry by linking inside and out beauty to maximize healthy-looking skin from the inside out so that you not only look great but feel great too."
 topmodule:
-    image1: img/illustrations-coffee.svg
-    image2: img/illustrations-coffee.svg
+    image1: img/topLeftImage.jpg
+    image2: img/topRightImage.jpg
 midmodule:
-    - image: img/illustrations-coffee.svg
+    - image: img/mid1.jpg
       heading: "Heading"
       text: "Lorum Ipsum"
-    - image: img/illustrations-coffee.svg
+    - image: img/mid2.jpg
       heading: "Heading"
       text: "Lorum Ipsum"
 

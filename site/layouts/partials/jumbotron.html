@@ -1,4 +1,17 @@
-<div class="pv5 pv6-l ph3 bg-center cover" style="background-image: url('{{.imageUrl}}')">
+<style>
+  .hero-main {
+    background-image: url('{{.imageUrl}}');
+  }
+  @media (max-width: 737px) {
+    .hero-main {
+      background-image: url('{{.mobileImage}}');
+    }
+  }
+</style>
+<div class="pv6 pv6-l ph3 bg-center cover hero-main">
+  <div class="absolute center main-logo">
+    <img src='/img/logo.svg' />
+  </div>
   <div class="mw7 center ph3">
     <div class="db mb3">
       <div class="mw7 relative bg-fix-primary tc">
@@ -8,7 +21,7 @@
       </div>
       <div class="mw7 relative tc">
         {{ if .subtitle }}
-        <h1 class="b center ttu white f1">
+        <h1 class="b center ttu white f1 lh-solid">
           {{.subtitle}}
         </h1>
         {{ end }}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="20px" viewBox="0 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1440---Landing-Page-(Video)-V2" transform="translate(-716.000000, -741.000000)" fill="#000000" stroke="#000000">
+            <g id="HERO-+-IMAGE">
+                <g id="Play-Button" transform="translate(686.000000, 716.000000)">
+                    <polygon id="Triangle" transform="translate(37.625000, 35.000000) rotate(-270.000000) translate(-37.625000, -35.000000) " points="37.625 28 46.375 42 28.875 42"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

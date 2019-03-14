@@ -8,7 +8,7 @@ video.addEventListener('click', function(e) {
 
 	var video01Player = new Vimeo.Player('video-overlay', options01);
 
-	video01Player.setVolume(0);
+	video01Player.setVolume(1);
 
 	video01Player.on('play', function() {
 		document.getElementById('video-overlay').classList.add('active');
@@ -19,8 +19,8 @@ video.addEventListener('click', function(e) {
 $(document).ready(function() {
 	$('.slider').slick({
 		dots: true,
-		prevArrow: '<button type="button" class="slick-prev">&lt;</button>',
-		nextArrow: '<button type="button" class="slick-next">&gt;</button>',
+		prevArrow: '<button type="button" class="slick-prev"><img src="./img/Review-Arrow-Left.svg" /></button>',
+		nextArrow: '<button type="button" class="slick-next"><img src="./img/Review-Arrow-Right.svg" /></button>',
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		responsive: [

@@ -6,6 +6,12 @@
 	left: 0;
 }
 
+.main-logo {
+	top: 30px;
+	width: 100%;
+	text-align: center;
+}
+
 #video-overlay.active {
 	z-index: 10;
 }
