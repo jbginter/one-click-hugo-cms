@@ -16,6 +16,31 @@ video.addEventListener('click', function(e) {
 	});
 });
 
+$(document).ready(function() {
+	$('.slider').slick({
+		dots: true,
+		prevArrow: '<button type="button" class="slick-prev">&lt;</button>',
+		nextArrow: '<button type="button" class="slick-next">&gt;</button>',
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 737,
+				settings: {
+					slidesToShow: 1,
+					arrows: false
+				}
+			}
+		]
+	});
+})
+
 if (window.netlifyIdentity) {
   window.netlifyIdentity.on("init", user => {
     if (!user) {

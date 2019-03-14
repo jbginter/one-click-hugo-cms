@@ -88,3 +88,4 @@
 
 /* CUSTOM */
 @import './_custom.css';
+@import './vendor/slick.css';

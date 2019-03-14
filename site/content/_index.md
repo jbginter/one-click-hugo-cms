@@ -23,6 +23,26 @@ midmodule:
     - image: img/illustrations-coffee.svg
       heading: "Heading"
       text: "Lorum Ipsum"
+
+reviews:
+    - name: "Gemma Marin"
+      copy: "Switching to more thoughtfully formulated products is a win, not only in terms of ingredients but also in terms of design!"
+      date: "03/29/19"
+    - name: "Rachel Martino"
+      copy: "Amazing product! Quench My Thrist gave my skin a good morning fresh glow. Really lovely product!"
+      date: "03/21/19"
+    - name: "Andrew B. Bachelo"
+      copy: "AMAZING and one of a kind moisturizing cream! I'm really looking forward to the rest of the 27 Rosiers products for my ultimate beauty routine."
+      date: "03/21/19"
+    - name: "Gemma Marin2"
+      copy: "Switching to more thoughtfully formulated products is a win, not only in terms of ingredients but also in terms of design!"
+      date: "03/29/19"
+    - name: "Rachel Martino2"
+      copy: "Amazing product! Quench My Thrist gave my skin a good morning fresh glow. Really lovely product!"
+      date: "03/21/19"
+    - name: "Andrew B. Bachelo2"
+      copy: "AMAZING and one of a kind moisturizing cream! I'm really looking forward to the rest of the 27 Rosiers products for my ultimate beauty routine."
+      date: "03/21/19"
 products:
     - image: img/illustrations-coffee.svg
       text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
