@@ -1,3 +1,20 @@
+/* HERO STYLES */
+.main-logo {
+	top: 30px;
+	width: 100%;
+	text-align: center;
+}
+
+.border-line {
+	left: 0;
+	width: 50%;
+	height: 20%;
+	margin-top: 45px;
+	border-right: 1px solid white;
+}
+/* END HERO STYLES */
+
+/* VIDEO PLAYER STYLES */
 #video-overlay {
 	width: 100%;
 	height: 100%;
@@ -6,14 +23,34 @@
 	left: 0;
 }
 
-.main-logo {
-	top: 30px;
-	width: 100%;
-	text-align: center;
-}
-
 #video-overlay.active {
 	z-index: 10;
+}
+
+.play-button {
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.play-out {
+	transition: 0.25s all ease-in-out;
+	background-color: white;
+	border-radius: 25px;
+	padding: 6px 14px 5px 17px;
+}
+
+.video-holder:hover .play-out {
+	background-color: black;
+}
+
+.video-holder img {
+	transition: 0.25s all ease-in-out;
+	filter: invert(0);
+}
+
+.video-holder:hover img {
+	filter: invert(1);
 }
 
 .video-holder {
@@ -25,38 +62,13 @@
 	cursor: pointer;
 }
 
-@media (--breakpoint-not-small) {
-	.video-holder {
-		width: 500px;
-		height: 265px;
-	}
-
-	.margin-neg {
-		margin-top: -150px;
-	}
-
-	.padding-bottom-add {
-		padding-bottom: 150px;
-	}
-
-	.middle-module .flex-reverse .w-40-ns {
-		margin-top: -10%;
-		margin-bottom: 0;
-		margin-left: 10px;
-	}
-
-	.middle-module .w-40-ns {
-		margin-bottom: -10%;
-		margin-top: 0;
-		margin-right: 10px;
-	}
-}
-
 .video {
 	top: -115px;
 	margin-bottom: -115px;
 }
+/* END VIDEO PLAYER STYLES */
 
+/* SLICK STYLING */
 .slider .slick-track {
 	display: flex;
 }
@@ -95,19 +107,20 @@
 }
 
 .slick-prev {
-	left: -35px;
+	left: -20px;
 }
 
 .slick-next {
-	right: -35px;
+	right: -20px;
 }
+/* END SLICK STYLES */
 
+/* CAROUSEL CARD STYLING */
 .card {
 	height: 100%;
 	background-color: white;
 	margin: 5px;
-	padding: 25px;
-	padding-bottom: 55px;
+	padding: 10% 10% 20%;
 }
 
 .card h1 {
@@ -119,3 +132,33 @@
 	bottom: 0;
 	opacity: 0.5;
 }
+/* END CAROUSEL CARD STYLES */
+
+/* NOT MOBILE ONLY STYLES */
+@media (--breakpoint-not-small) {
+	.video-holder {
+		width: 500px;
+		height: 265px;
+	}
+
+	.margin-neg {
+		margin-top: -150px;
+	}
+
+	.padding-bottom-add {
+		padding-bottom: 150px;
+	}
+
+	.middle-module .flex-reverse .w-40-ns {
+		margin-top: -10%;
+		margin-bottom: 0;
+		margin-left: 10px;
+	}
+
+	.middle-module .w-40-ns {
+		margin-bottom: -10%;
+		margin-top: 0;
+		margin-right: 10px;
+	}
+}
+/* END NOT MOBILE ONLY STYLES */

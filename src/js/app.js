@@ -9,10 +9,10 @@ video.addEventListener('click', function(e) {
 	var video01Player = new Vimeo.Player('video-overlay', options01);
 
 	video01Player.setVolume(1);
+	video01Player.play();
 
 	video01Player.on('play', function() {
 		document.getElementById('video-overlay').classList.add('active');
-	  	console.log('Played the first video');
 	});
 });
 
