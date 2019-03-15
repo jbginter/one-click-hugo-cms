@@ -87,5 +87,5 @@
 /*@import './imports/_debug';*/
 
 /* CUSTOM */
-@import './_custom.css';
+@import './imports/_custom.css';
 @import './vendor/slick.css';

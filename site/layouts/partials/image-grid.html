@@ -1,12 +1,11 @@
 <div class="center ph3 pv4 bg-white">
 
-	<div class="flex flex-wrap mhn1">
-		<div class="w-100 w-30-ns ph1-ns">
-			<img src="{{ .topmodule.image1 }}" alt="{{ .image1.alt }}">
+	<div class="flex flex-wrap mhn1 mw7 center margin-neg">
+		<div class="w-100 w-30-ns ph3-ns">
+			<img class='db' src="{{ .topmodule.image1 }}" alt="{{ .image1.alt }}">
 		</div>
 
-		<div class="w-100 w-70-ns ph1-ns">
-			<img src="{{ .topmodule.image2 }}" alt="{{ .image2.alt }}">
+		<div class="w-100 w-70-ns ph1-ns cover bg-center" style='background-image: url("{{ .topmodule.image2 }}");'>
 		</div>
 	</div>
 

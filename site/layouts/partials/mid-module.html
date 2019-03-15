@@ -1,13 +1,17 @@
 <div class="bg-white pv4">
-  <div class="ph3 mw7 center">
+  <div class="ph3 mw7 center middle-module">
     <div class="mhn2-ns mb3">
-      {{ range .midmodule }}
-      <div class="ph2-ns w-100-ns">
-        <img src="{{.image}}" alt="" class="db mb3" style="width: 240px">
-        <div class=''>
-          <h1>{{.heading}}</h1>
+      {{ range $index, $element := .midmodule }}
+      {{ if modBool $index 2 }}
+        <div class="w-100-ns flex-ns flex-reverse relative items-center">
+      {{ else }}
+        <div class="w-100-ns flex-ns margin-neg items-center"> 
+      {{ end }}
+        <div class='w-100 w-40-ns f6'>
+          <h1 class="ttu">{{.heading}}</h1>
           <p>{{.text}}</p>
         </div>
+        <img src="{{.image}}" alt="" class="db mb3 w-100 w-60-ns">
       </div>
       {{ end }}
     </div>

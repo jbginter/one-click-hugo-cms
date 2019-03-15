@@ -30,6 +30,26 @@
 		width: 500px;
 		height: 265px;
 	}
+
+	.margin-neg {
+		margin-top: -150px;
+	}
+
+	.padding-bottom-add {
+		padding-bottom: 150px;
+	}
+
+	.middle-module .flex-reverse .w-40-ns {
+		margin-top: -10%;
+		margin-bottom: 0;
+		margin-left: 10px;
+	}
+
+	.middle-module .w-40-ns {
+		margin-bottom: -10%;
+		margin-top: 0;
+		margin-right: 10px;
+	}
 }
 
 .video {

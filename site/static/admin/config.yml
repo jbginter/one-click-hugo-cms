@@ -26,6 +26,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: "Mobile Image", name: mobile, widget: image}
+          - {label: "Terms & Conditions", name: terms, widget: string}
           - {label: "Video", name: video, widget: object, fields: [
               {label: "Image", name: "image", widget: image},
               {label: "Video ID", name: "id", widget: "string"}]}

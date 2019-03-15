@@ -3,6 +3,7 @@ title: "We create skincare cosmetics + beauty supplements for true"
 subtitle: Inside out beauty
 image: /img/hero.jpg
 mobile: /img/heroMobile.jpg
+terms: ""
 video:
     image: img/video.jpg
     id: "322620538"
@@ -19,11 +20,11 @@ topmodule:
     image2: img/topRightImage.jpg
 midmodule:
     - image: img/mid1.jpg
-      heading: "Heading"
-      text: "Lorum Ipsum"
+      heading: "Our Mission"
+      text: "We are revolutionizing the clean beauty industry by linking inside and out beauty so that you not only look great but feel great too."
     - image: img/mid2.jpg
-      heading: "Heading"
-      text: "Lorum Ipsum"
+      heading: "Quench My Thirst"
+      text: "This easygoing super moisturizing cream has a fresh texture and a soft-touch finish. Reveals a natural glowy finish that suits everyone."
 
 reviews:
     - name: "Gemma Marin"
