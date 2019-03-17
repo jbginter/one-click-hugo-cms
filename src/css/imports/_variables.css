@@ -17,7 +17,7 @@
 
 	--font-size: 18px;
 	--font-size-m: 20px;
-	--font-size-l: 22px;
+	--font-size-l: 25px;
 
 	--body-font-weight: 400;
 	--bold-font-weight: 700;
@@ -30,7 +30,7 @@
 	--spacing-large: 2rem;
 	--spacing-extra-large: 4rem;
 	--spacing-extra-extra-large: 8rem;
-	--spacing-extra-extra-extra-large: 16rem;
+	--spacing-extra-extra-extra-large: 12rem;
 
 	/* Miscelaneous */
 	--border-radius: .25rem;

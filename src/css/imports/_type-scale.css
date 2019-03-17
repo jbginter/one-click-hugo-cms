@@ -1,9 +1,9 @@
-.f1 { font-size: 3rem; }
+/*.f1 { font-size: 3.25rem; }
 .f2 { font-size: 2.25rem; }
 .f3 { font-size: 1.5rem; }
 .f4 { font-size: 1.25rem;; }
-.f5 { font-size: var(--spacing-medium); }
-.f6 { font-size: .875rem; }
+.f5 { font-size: 0.85rem; }
+.f6 { font-size: .6rem; }
 
 @media (--breakpoint-not-small) {
   .f-6-ns,
@@ -29,6 +29,48 @@
   .f4-m { font-size: 1.25rem;; }
   .f5-m { font-size: var(--spacing-medium); }
   .f6-m { font-size: .875rem; }
+}
+
+@media (--breakpoint-large) {
+  .f-6-l,
+  .f-headline-l {
+    font-size: 6rem;
+  }
+  .f-5-l,
+  .f-subheadline-l {
+    font-size: 5rem;
+  }
+  .f1-l { font-size: 3rem; }
+  .f2-l { font-size: 2.25rem; }
+  .f3-l { font-size: 1.5rem; }
+  .f4-l { font-size: 1.25rem;; }
+  .f5-l { font-size: var(--spacing-medium); }
+  .f6-l { font-size: .875rem; }
+}*/
+
+.f1 { font-size: 62px; }
+.f2 { font-size: 34px; }
+.f3 { font-size: 18px; }
+.f4 { font-size: 16px; }
+.f5 { font-size: 13px; }
+.f6 { font-size: 12px; }
+
+@media (--breakpoint-not-small) {
+  .f1 { font-size: 84px; }
+  .f2 { font-size: 54px; }
+  .f3 { font-size: 22px; }
+  .f4 { font-size: 18px; }
+  .f5 { font-size: 14px; }
+  .f6 { font-size: 12px; }
+}
+
+@media (--breakpoint-medium) {
+  .f1 { font-size: 94px; }
+  .f2 { font-size: 64px; }
+  .f3 { font-size: 24px;}
+  .f4 { font-size: 20px; }
+  .f5 { font-size: 14px; }
+  .f6 { font-size: 12px; }
 }
 
 @media (--breakpoint-large) {

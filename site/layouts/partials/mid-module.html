@@ -1,17 +1,20 @@
-<div class="bg-white pv4">
+<div class="bg-white">
   <div class="ph3 mw7 center middle-module">
-    <div class="mhn2-ns mb3">
+    <div class="mhn2-ns">
       {{ range $index, $element := .midmodule }}
       {{ if modBool $index 2 }}
         <div class="w-100-ns flex-ns flex-reverse relative items-center">
       {{ else }}
-        <div class="w-100-ns flex-ns margin-neg items-center"> 
+        <div class="w-100-ns flex-ns margin-neg mobile-remove items-center relative">
+          <div class="absolute product db-l dn">
+            <img src='./img/product.png' />
+          </div>
       {{ end }}
         <div class='w-100 w-40-ns f6'>
-          <h1 class="ttu">{{.heading}}</h1>
-          <p>{{.text}}</p>
+          <h1 class="ttu f3">{{.heading}}<div class='border-dash-sm'></div></h1>
+          <p class='f4'>{{.text}}</p>
         </div>
-        <img src="{{.image}}" alt="" class="db mb3 w-100 w-60-ns">
+        <img src="{{.image}}" alt="" class="db w-100 w-60-ns">
       </div>
       {{ end }}
     </div>

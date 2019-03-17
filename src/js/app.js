@@ -3,7 +3,7 @@ const video = document.getElementsByClassName('video-holder')[0];
 video.addEventListener('click', function(e) {
 	var options01 = {
 	  id: video.getAttribute('data-id'),
-	  width: video.clientWidth
+	  width: ($(window).width() < $(window).height() ? $(window).width() : $(window).height())
 	};
 
 	var video01Player = new Vimeo.Player('video-overlay', options01);
@@ -14,6 +14,12 @@ video.addEventListener('click', function(e) {
 	video01Player.on('play', function() {
 		document.getElementById('video-overlay').classList.add('active');
 	});
+
+	destroyPlayer(video01Player);
+});
+
+$('.submit-button').on('click', function() {
+	$('.review-form').removeClass('dn');
 });
 
 $(document).ready(function() {
@@ -40,6 +46,13 @@ $(document).ready(function() {
 		]
 	});
 })
+
+function destroyPlayer(player) {
+	$('#close-video').on('click', function() {
+		document.getElementById('video-overlay').classList.remove('active');
+		player.destroy();
+	});
+}
 
 if (window.netlifyIdentity) {
   window.netlifyIdentity.on("init", user => {
