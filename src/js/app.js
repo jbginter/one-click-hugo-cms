@@ -45,6 +45,32 @@ $(document).ready(function() {
 			}
 		]
 	});
+
+	const form = $('#email-subscribe');
+
+	if (form.length > 0) {
+	    $('form button[type="submit"]').bind('click', function (event) {
+	      	event.preventDefault();
+	      	register(form);
+	    });
+	}
+
+	function register(form) {
+		$.ajax({
+			type: form.attr('method'),
+			url: form.attr('action'),
+			data: form.serialize(),
+			cache: false,
+			dataType: 'json',
+			contentType: 'application/json; charset=utf-8',
+			error: function(err) {
+				console.log('error: ',err);
+			},
+			success: function(data) {
+				console.log('successfully subscribed', data);
+			}
+		})
+	}
 })
 
 function destroyPlayer(player) {
